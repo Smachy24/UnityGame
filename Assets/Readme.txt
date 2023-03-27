@@ -1,19 +1,20 @@
 Possibilités d'extension :
 
-- Nouveaux visuels
+- Refaire les visuels
+- Animations de personnage : marche, saut, mort, victoire, ...
 - Animations d'UI et transitions
+- Nouveaux éléments de platforming : bumpers, ennemis...
 - Plusieurs niveaux
 - Histoire
-- Polish divers (screenshakes, post processing, effets visuels...)
+- Points de vie
+- Polish divers (screenshakes, trails, post processing, effets visuels...)
 - ...
 
 Jeux possibles :
 
-- Jeu d'exploration
-- Jeu d'horreur
-- Jeu type puzzle
-- Jeu de plateforme 3D assez classique (Parkour ? Plateforming classique ?)
-- Jeu de plateforme 3D Rageant (Alt F4 etc...)
-- Walking Sim (Stanley Parable et d'autres)
-- FPS (mais alors là bonne chance)
+- Platformer 2D classique
+- Jeu d'exploration 2D
+- Platformer rageant
+- Jump King ou autre du genre
+- Infinite Platformer type Doodle Jump
 - ...

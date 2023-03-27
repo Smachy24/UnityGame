@@ -6,35 +6,35 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    private GameObject m_HUD;
+    private GameObject m_GameOverUI;
+    [SerializeField]
+    private GameObject m_WinUI;
 
     [SerializeField]
-    private GameObject m_FinishUI;
+    private PlayerController m_Player;
 
-    [SerializeField]
-    private GameObject m_FinalCamera;
-
-    [SerializeField]
-    private GameObject m_PlayerCamera;
-    [SerializeField]
-    private GameObject m_Player;
+    private bool _isOver = false;
 
     public void FinishGame()
     {
-        m_FinishUI.SetActive(true);
-        m_FinalCamera.SetActive(true);
-        m_HUD.SetActive(false);
-        m_Player.SetActive(false);
-        m_PlayerCamera.SetActive(false);
+        if (_isOver)
+            return;
 
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+        _isOver = true;
+
+        m_WinUI.SetActive(true);
+        m_Player.Stop();
     }
 
-    private void Start()
+    public void GameOver()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        if (_isOver)
+            return;
+
+        _isOver = true;
+
+        m_GameOverUI.SetActive(true);
+        m_Player.Stop();
     }
 
     public void Replay()
