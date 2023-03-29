@@ -28,9 +28,9 @@ public class FireBall : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Ennemy"))
         {
-            // collision.GetComponent<Ennemy>().Flip();
-            Debug.Log("222");
-
+            GameObject mage = GameObject.FindWithTag("Player");
+            collision.GetComponent<Stats>().InflictDamage(mage.GetComponent<Stats>().damageAttack);
+            Debug.Log(collision.GetComponent<Stats>().currentPv);
         }
     }
 
