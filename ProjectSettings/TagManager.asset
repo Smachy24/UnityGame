@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Ennemy
+=======
+  - playerSpawn
+>>>>>>> levels
   layers:
   - Default
   - TransparentFX
