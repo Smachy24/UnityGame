@@ -15,8 +15,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float m_MoveSpeed;
 
+    [SerializeField]
+    private float playerHeight = 1;
+
     private float _movement;
     private bool _isJump;
+
 
     private void Awake()
     {
@@ -26,7 +30,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics2D.Raycast(transform.position, Vector2.down, 1f, m_GroundLayer))
+        if (Physics2D.Raycast(transform.position, Vector2.down,playerHeight , m_GroundLayer))
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
