@@ -4,11 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
   - playerSpawn
-=======
-  - Ennemy
->>>>>>> eb625b452b9c3c3fe47f4a6354663248b9f40b2c
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
