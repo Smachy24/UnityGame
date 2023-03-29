@@ -23,6 +23,17 @@ public class FireBall : MonoBehaviour
         transform.position += transform.up * speed * Time.deltaTime;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Ennemy"))
+        {
+            // collision.GetComponent<Ennemy>().Flip();
+            Debug.Log("222");
+
+        }
+    }
+
     void RemoveFireball()
     {
         Destroy(gameObject);
