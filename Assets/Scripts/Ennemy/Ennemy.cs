@@ -25,7 +25,6 @@ public class Ennemy : MonoBehaviour
     private float m_MoveSpeed;
 
     private float _movement;
-    private bool _isJump;
 
 
 
@@ -36,12 +35,13 @@ public class Ennemy : MonoBehaviour
         if (direction == "right")
         {
             direction = "left";
+            
         }
         else if (direction == "left")
         {
            direction = "right";
         }
-
+ 
     }
 
 
