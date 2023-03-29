@@ -7,13 +7,17 @@ public class PlayerRangeAttack : MonoBehaviour
     [SerializeField]
     private FireBall fireballPrefab;
 
+    [SerializeField]
+    private float cooldownInitialValue = 0.3f;
+
     public float offset;
-    private float cooldown = 1;
+    private float cooldown;
+
 
     // Start is called before the first frame update
     void Start()
     {
-
+        cooldown = cooldownInitialValue;
     }
 
     // Update is called once per frame
@@ -32,13 +36,7 @@ public class PlayerRangeAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && cooldown <= 0)
         {
             Instantiate(fireballPrefab, transform.position, transform.rotation);
-            cooldown = 1;
-        }
-
-        if (Input.GetMouseButtonDown(1) && cooldown <= 0)
-        {
-
-
+            cooldown = cooldownInitialValue;
         }
 
         cooldown -= Time.deltaTime;
