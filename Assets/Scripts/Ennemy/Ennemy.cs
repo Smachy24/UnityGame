@@ -25,19 +25,21 @@ public class Ennemy : MonoBehaviour
     private float m_MoveSpeed;
 
     private float _movement;
-    private float _movement2;
     private bool _isJump;
 
-    private static string _direction = "right";
-    public static string direction
+
+
+    private string direction = "right";
+    
+    public void Flip()
     {
-        get
+        if (direction == "right")
         {
-            return _direction;
+            direction = "left";
         }
-        set
+        else if (direction == "left")
         {
-            _direction = value;
+           direction = "right";
         }
 
     }
@@ -60,6 +62,17 @@ public class Ennemy : MonoBehaviour
             }
         }*/
 
+        if (direction == "right")
+        {
+            _movement = 1;
+        }
+        else
+        {
+            _movement = -1;
+        }
+
+        _rigBod.velocity = new Vector2(m_MoveSpeed * _movement, _rigBod.velocity.y);
+
         _movement = Input.GetAxis("Horizontal");
     }
 
@@ -71,17 +84,7 @@ public class Ennemy : MonoBehaviour
 
             _rigBod.AddForce(Vector2.up * m_JumpForce, ForceMode2D.Impulse);
         }*/
-        Debug.Log(_movement);
-        if(_direction == "right")
-        {
-            _movement2 = 1;
-        }
-        else
-        {
-            _movement2 = -1;
-        }
-
-        _rigBod.velocity = new Vector2(m_MoveSpeed * _movement2, _rigBod.velocity.y);
+       
     }
 
     public void Stop()

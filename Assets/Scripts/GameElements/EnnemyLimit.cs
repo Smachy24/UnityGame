@@ -9,16 +9,8 @@ public class EnnemyLimit : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ennemy"))
         {
-            
-            if (Ennemy.direction == "right")
-            {
-                Ennemy.direction = "left";
-            }
-            else if(Ennemy.direction == "left")
-            {
-                Ennemy.direction = "right";
-            }
-            Debug.Log(Ennemy.direction);
+
+            collision.GetComponent<Ennemy>().Flip();
 
         }
     }
