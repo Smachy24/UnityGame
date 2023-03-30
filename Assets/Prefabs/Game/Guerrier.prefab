@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6519126264535087813}
   - component: {fileID: 6519126264535087812}
   - component: {fileID: 6519126264535087814}
-  - component: {fileID: 6351378579401825886}
+  - component: {fileID: 2009995393899462118}
+  - component: {fileID: 6154218734870815762}
   m_Layer: 0
-  m_Name: Mage
+  m_Name: Guerrier
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,8 +32,7 @@ Transform:
   m_LocalPosition: {x: -1.62, y: -1.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 142440529536663207}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.3284414, g: 0.1538804, b: 0.62352943, a: 1}
+  m_Color: {r: 0.7264151, g: 0.14733891, b: 0.14733891, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -120,7 +120,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   m_Switcher: {fileID: 0}
---- !u!114 &6351378579401825886
+--- !u!114 &2009995393899462118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6519126264535087808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59e8876f4a0c48ddabecbf98af778bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _swordZonePrefab: {fileID: 4200771267190656275, guid: 3590a847472074c228fb215bae2258b9, type: 3}
+--- !u!114 &6154218734870815762
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,67 +146,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpForce: 15
-  m_MoveSpeed: 15
+  m_MoveSpeed: 8
   playerHeight: 1
---- !u!1001 &7999904530708295015
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6519126264535087809}
-    m_Modifications:
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998201765478618051, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-      propertyPath: m_Name
-      value: SpellCaster
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
---- !u!4 &142440529536663207 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7998201765478618048, guid: fd4aebcd051ad49b6af937beca429601, type: 3}
-  m_PrefabInstance: {fileID: 7999904530708295015}
-  m_PrefabAsset: {fileID: 0}
