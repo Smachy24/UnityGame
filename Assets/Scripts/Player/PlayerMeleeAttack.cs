@@ -22,7 +22,6 @@ public class PlayerMeleeAttack : MonoBehaviour
             Instantiate(_swordZonePrefab, gameObject.transform);
             _swordZonePrefab.transform.position = new Vector2(1,0);
 
-
         }
     }
 }
