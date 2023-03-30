@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    // commentaire
     public float m_JumpForce;
 
     public float m_MoveSpeed;
