@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody2D _rigBod;
+    private  Rigidbody2D _rigBod;
 
     [SerializeField]
     private LayerMask m_GroundLayer;
@@ -15,6 +15,19 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private CharacterSwitch m_Switcher;
+
+    private static string _direction;
+    public static string direction
+    {
+        get
+        {
+            return _direction;
+        }
+        set
+        {
+            _direction = value;
+        }
+    }
 
     private void Awake()
     {
@@ -35,6 +48,14 @@ public class PlayerController : MonoBehaviour
         }
         
         _movement = Input.GetAxis("Horizontal");
+        if (_movement > 0)
+        {
+            _direction = "right";
+        }
+        else if(_movement < 0)
+        {
+            _direction = "left";
+        }
     }
 
     private void FixedUpdate()

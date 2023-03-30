@@ -41,7 +41,7 @@ public class Ennemy : MonoBehaviour
         {
            direction = "right";
         }
- 
+       
     }
 
 

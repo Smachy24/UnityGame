@@ -25,11 +25,12 @@ public class FireBall : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+      
         if (collision.gameObject.CompareTag("Ennemy"))
         {
             GameObject mage = GameObject.FindWithTag("Player");
-            collision.GetComponent<Stats>().InflictDamage(mage.GetComponent<Stats>().damageAttack);
+            Debug.Log(mage);
+            collision.GetComponent<Stats>().InflictDamage(mage.GetComponent<Stats>().damageAttackMage);
             Debug.Log(collision.GetComponent<Stats>().currentPv);
         }
     }

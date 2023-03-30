@@ -11,7 +11,10 @@ public class Stats : MonoBehaviour
     public int _currentPv;
 
     [SerializeField]
-    private int _damageAttack;
+    private int _damageAttackGuerrier;
+
+    [SerializeField]
+    private int _damageAttackMage;
 
     public int maxPv
     {
@@ -35,15 +38,28 @@ public class Stats : MonoBehaviour
             _currentPv = value;
         }
     }
-    public int damageAttack
+
+    public int damageAttackGuerrier
     {
         get
         {
-            return _damageAttack;
+            return _damageAttackGuerrier;
         }
         set
         {
-            _damageAttack = value;
+            _damageAttackGuerrier = value;
+        }
+    }
+
+    public int damageAttackMage
+    {
+        get
+        {
+            return _damageAttackMage;
+        }
+        set
+        {
+            _damageAttackMage = value;
         }
     }
 
