@@ -15,6 +15,16 @@ public class GameManager : MonoBehaviour
 
     private bool _isOver = false;
 
+    private bool gameHasStarted = false;
+
+    private void Start()
+    {
+        if (!gameHasStarted)
+        {
+            gameHasStarted = true;
+        }
+    }
+
     public void FinishGame()
     {
         if (_isOver)

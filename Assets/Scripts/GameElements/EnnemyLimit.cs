@@ -9,7 +9,7 @@ public class EnnemyLimit : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ennemy"))
         {
-
+             
             collision.GetComponent<Ennemy>().Flip();
 
         }

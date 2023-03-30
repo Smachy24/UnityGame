@@ -7,6 +7,8 @@ public class PlayerMeleeAttack : MonoBehaviour
     [SerializeField]
     private GameObject _swordZonePrefab;
 
+    public AudioClip sound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,7 @@ public class PlayerMeleeAttack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            AudioManager.instance.PlayClipAt(sound,transform.position);
             Debug.Log("atk droite");
             Instantiate(_swordZonePrefab, gameObject.transform);
             _swordZonePrefab.transform.position = new Vector2(1,0);

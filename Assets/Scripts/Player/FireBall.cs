@@ -6,6 +6,7 @@ public class FireBall : MonoBehaviour
 
     private float speed = 12;
     private float lifeTime = 1;
+    private float damage = 2;
 
     // Use this for initialization
     void Start()
@@ -21,6 +22,20 @@ public class FireBall : MonoBehaviour
         //transform.position += Vector3.right * Time.deltaTime;
         //transform.Translate(transform.up * speed * Time.deltaTime);
         transform.position += transform.up * speed * Time.deltaTime;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Ennemy"))
+        {
+            //GameObject mage = GameObject.FindWithTag("Player");
+            //collision.GetComponent<Stats>().InflictDamage(mage.GetComponent<Stats>().damageAttack);
+            //Debug.Log(collision.GetComponent<Stats>().currentPv);
+            Debug.Log(collision.name);
+            collision.GetComponent<EnemyBase>().TakeDamage(damage);
+            Destroy(gameObject);
+        }
     }
 
     void RemoveFireball()
