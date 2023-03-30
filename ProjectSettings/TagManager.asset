@@ -3,17 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Ennemy
-=======
-  - playerSpawn
->>>>>>> levels
-=======
-  - playerSpawn
-  - Checkpoint
->>>>>>> origin/postprocess
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -21,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - PostProcessing
+  - 
+  - 
   - 
   - 
   - 
