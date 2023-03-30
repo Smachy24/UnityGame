@@ -9,14 +9,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private LayerMask m_GroundLayer;
 
-    [SerializeField]
-    private float m_JumpForce;
-
-    [SerializeField]
-    private float m_MoveSpeed;
-
     private float _movement;
     private bool _isJump;
+
+
+    [SerializeField]
+    private CharacterSwitch m_Switcher;
 
     private void Awake()
     {
@@ -26,7 +24,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics2D.Raycast(transform.position, Vector2.down, 1f, m_GroundLayer))
+        PlayerStats stats = m_Switcher.CurrentStats;
+
+        if (Physics2D.Raycast(transform.position, Vector2.down, stats.playerHeight, m_GroundLayer))
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -39,14 +39,16 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        PlayerStats stats = m_Switcher.CurrentStats;
+
         if (_isJump)
         {
             _isJump = false;
 
-            _rigBod.AddForce(Vector2.up * m_JumpForce, ForceMode2D.Impulse);
+            _rigBod.AddForce(Vector2.up * stats.m_JumpForce, ForceMode2D.Impulse);
         }
 
-        _rigBod.velocity = new Vector2(m_MoveSpeed * _movement, _rigBod.velocity.y);
+        _rigBod.velocity = new Vector2(stats.m_MoveSpeed * _movement, _rigBod.velocity.y);
     }
 
     public void Stop()

@@ -1,0 +1,4007 @@
+fileFormatVersion: 2
+guid: b21488eadb60b8b4d93d96adf00939f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yellow-Tree_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 107
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e9851526fd644bb21b5e45c2f1369
+      internalID: 782016315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1014
+        width: 102
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a536f908c071c6d408990427decdb4ea
+      internalID: 353463843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 832
+        width: 107
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f74dba1bcc430c4e97022c1c3c46a72
+      internalID: -12526086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 832
+        width: 69
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb526f269dd01ac4ebe95a3f611ce204
+      internalID: 1904225919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_4
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 832
+        width: 27
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa7c10be7212cc48be720d9374c63c3
+      internalID: 432525949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1183
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a55fcc0330290f4c8905890c374a81a
+      internalID: -1901634754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_6
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 832
+        width: 107
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722db827edc40d74089d062b97f3ec6e
+      internalID: -2018995948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_7
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1014
+        width: 102
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ef6cd62960c748b97b7a351726a05
+      internalID: 273855657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_8
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 107
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa93ff07f4204e43affec3059fd1d6b
+      internalID: -564049899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_9
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 832
+        width: 69
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3e7f29d20bcd9478ec17fa375b99e6
+      internalID: -959442253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_10
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 832
+        width: 27
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff826032fc21bff4bb59e943eabcc533
+      internalID: 1113193957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_11
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1183
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d416d44d8c0e35c4e81a31fb36388aa2
+      internalID: 1338102052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_12
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1170
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a268ceaf28e94e44abb3f95c1cd3e72
+      internalID: -1353348286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_13
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1170
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74868d233662854458bf28d1258114be
+      internalID: -2087147477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_14
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1147
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed383a12028d684983638ecfba288b8
+      internalID: -1624149362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_15
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1147
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ead7c7eb6d2ac40a0b7e85a1ceba03
+      internalID: -957599954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1134
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594262ec3b3219b4694f2b12108555b1
+      internalID: -1335525955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_17
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1134
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6927584099edf3447bea08871d154e8a
+      internalID: -1779761491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_18
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1088
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2724c926094447642b106ef7fa16b654
+      internalID: -1931751409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_19
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1106
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21624e4bddb35914fbe281b33bcd725a
+      internalID: 255192023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_20
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1088
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50c13c2b7fbf6046a4fd3ca3d00fd68
+      internalID: -1184748576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_21
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1106
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdfb2977ad98a24da958248107b5296
+      internalID: -1962796912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_22
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1082
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51a6e7a820298446bb85f81cd2f1246
+      internalID: 1198642867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_23
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1082
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355b176dd36fd034a8afd4b7b0e62a0f
+      internalID: 859770851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_24
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1061
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf174867a2321b429893f488a5dc4a5
+      internalID: -1446333110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_25
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1047
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72beb472820cb44d869e9a83faf2b7c
+      internalID: 993489667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_26
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1061
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32e41bb1c2e6a544896ee56b8c4fbb8
+      internalID: 2105368504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_27
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1047
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ff4a3cdc05bf4b9b5e04d79a979d6
+      internalID: 62129929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_28
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1033
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd6e912e4e38024597b950f21a07eb8
+      internalID: -894867919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_29
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1033
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea85c863cf89849a55315377ef5acd
+      internalID: 1716040734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_30
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1033
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b770c8149010e48b5262f1ed9626fb
+      internalID: 1342238976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_31
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1033
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f64c9ae59a37714f93a3dab6a79d1c2
+      internalID: -1784711396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 991
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b77ef6340a4a84fa195e5c41b002ae
+      internalID: 1651332288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_33
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 988
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72037d28f7255fd4ca9c7d47694b124e
+      internalID: 484571182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_34
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 991
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3474a8da753cd4bbf0280de865c280
+      internalID: 166442702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_35
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 988
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bc9a37a68222d40bcc0387dda19533
+      internalID: -1714394945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_36
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 947
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bb2f6065cef174cb7da4749b76e425
+      internalID: -1317815261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 913
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0954818c6d303d4288989df26da9c52
+      internalID: -472824090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_38
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 955
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5379b6f1fa4ec4a818c6d8bcf0cedf
+      internalID: 1419087719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_39
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 947
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e5ad5d786ffd47a75340c1205344c
+      internalID: -1899508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 913
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9928a8bbd25d5df449500fd202e3b23d
+      internalID: 256898316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_41
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 955
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26d0498170ff1a47b4f26df6d60cd58
+      internalID: -1083609642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_42
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 927
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd45c4e86872214cb268efc7b12cd3c
+      internalID: 1771480133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_43
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 927
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bf52fd267fe094fb93ad8f5b171bfc
+      internalID: -1923527695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 882
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60d5688955dcd344a5e03ebcaf9a9ee
+      internalID: -280096723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_45
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 893
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d87bcb61b8980044861447414a544af
+      internalID: 933446494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_46
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 882
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df31ad0bf573bd46a3175e6f7b10483
+      internalID: 914528000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_47
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 893
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b8bd14987b7ff43a55f0c7e1b40a7d
+      internalID: 1713878163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 496
+        width: 108
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88be3cdb913348479b090e1fd31ff5b
+      internalID: -342455258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_49
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 555
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2043ca463e15e614597cb56f4bffde11
+      internalID: 1526879300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_50
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 496
+        width: 108
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e6200dd0b1fc343949e211b4de9332
+      internalID: 1809021269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_51
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 496
+        width: 56
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3108addbe1b8e04595231dbc5817ec2
+      internalID: -1104792182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_52
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 496
+        width: 21
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad69bbc3fe2f84142972b2af0ef53a4f
+      internalID: -240049105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_53
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 797
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72a568936d983d4ba30766d41831a76
+      internalID: 767294031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_54
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 791
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2c2a327a99f6747a7f7d302af06016
+      internalID: 1383313959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_55
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 496
+        width: 108
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67d6f3607d43c24b9be3408bc91366e
+      internalID: 50163959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_56
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 555
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da531c89e464ee4380055367a383711
+      internalID: 3670707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_57
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 496
+        width: 108
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def6a30945fe12b45a857d2d107d5f0d
+      internalID: -441753235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_58
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 496
+        width: 56
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c519b72159be8b043b6b7aeb22351a6f
+      internalID: -2012105988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_59
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 496
+        width: 21
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff12f03bc71ac914c822c73f2223f5ef
+      internalID: -927001311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_60
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 797
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46fcd99430ddf248b16c4d3fdf3b291
+      internalID: 670443474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_61
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 791
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65af355af3838d429f1c4d072946cc4
+      internalID: 701564977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_62
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 770
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f35399775f652469b8e24cb2fc5845
+      internalID: -905884145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_63
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 770
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4a6a519513da46b8eba85cc5705dd
+      internalID: 768700197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_64
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 742
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db6f52629d15b546b993c407b98c1e3
+      internalID: 1261105419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_65
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 742
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6250a2036b86644ba3b0f232aafc641
+      internalID: 1678965609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_66
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 721
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2788dd6ee0f15694f8e08fa9a6cc7e8d
+      internalID: 1581760213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_67
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 721
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a302f26d6b2ca49b5650fc2b5a6529
+      internalID: -528859236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_68
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 690
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a39395ac53fe04590ae6eb4c97170b
+      internalID: 763054607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_69
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 690
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60c93c2d9b64f04bb797470c86a5b5c
+      internalID: -1979183406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_70
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 647
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a8c937fa755144991cb4e3242ba61
+      internalID: -679812439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_71
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 669
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa16374818304134c9a7c04f05559346
+      internalID: -1738012721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_72
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 647
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423b8c2f9a2e4c5419f8447c4ebb08d9
+      internalID: 1593475660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_73
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 669
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b2495086b5f0b4dba355ab50ac1c0c
+      internalID: -922032216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_74
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 637
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d03861036c933b4faf5d6b6757172d1
+      internalID: -1998874007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_75
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 643
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076a1388e81712a4691781cda2c14a9d
+      internalID: -1413170214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_76
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 637
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c75d97580bf32e47befb5ef4fd78d5c
+      internalID: 855653329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_77
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 643
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfc6559db7380b4b8cd7a230cabc2e6
+      internalID: -1135401771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_78
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 620
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497178144ed8a064fab795ccde799ddc
+      internalID: 1858170734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_79
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 611
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d1748c2a8cfd54f89d29a00bb6233a
+      internalID: -1888685013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_80
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 620
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84ec032946201c489762e8f17ef4b07
+      internalID: 1046829214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_81
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 611
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834de74bb41452c44a74606f3ddcbc3e
+      internalID: -155038620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_82
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 602
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a993d24570d4d43b3b6d9d042520e2
+      internalID: -509002232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_83
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 598
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466fa1c8e1f76ea4eaed3d1bebeb751c
+      internalID: 208991618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_84
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 602
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca63bda2d539824490c760061e69f24
+      internalID: -1207222672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_85
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 598
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15f3d2de54623f4c96b6564ee0a18f7
+      internalID: -1566180880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_86
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 578
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d46637ab33729a4885808250a3b5cbd
+      internalID: -1753846415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_87
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 579
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd66c7bf57a74e4e9d9f0a650441c76
+      internalID: 2004724795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_88
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 578
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bddf699dc57234aaf6bb0228ef3f11
+      internalID: -1639246769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_89
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 579
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938cce61088fdc74c834437d68ccee5a
+      internalID: 1212623055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_90
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 523
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da37cad97d3f194ebb6a309eaecb3b9
+      internalID: 2067306809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_91
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 523
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94baedecb5a424542921f385f61a0589
+      internalID: 359968091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_92
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 272
+        width: 88
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1445f3809860d34bb3468fab5eeb936
+      internalID: -1273304137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_93
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 303
+        width: 88
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a770cb306d99570459aedc0eeced88c5
+      internalID: -838079677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_94
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 272
+        width: 88
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c550b041a2e64204498693f90f567033
+      internalID: -717591966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_95
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 272
+        width: 55
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48233dc1502a7504abb333d2e8191ff5
+      internalID: 1718029333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_96
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 272
+        width: 17
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb68f1fcf0a68d4fb0819e2d6a3136a
+      internalID: -1761669670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_97
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 454
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a8ced34332bc84488e60013dc1318e
+      internalID: 260944695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_98
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 272
+        width: 88
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0bac953cff8be42b5d5103728d6f1e
+      internalID: -70393585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_99
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 303
+        width: 88
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af1e844a4cbf7246a950f868ae0f144
+      internalID: 500741943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_100
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 272
+        width: 88
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4d2ae21c7cfe944bcc217f532c82ff
+      internalID: 2141628790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_101
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 272
+        width: 55
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9943c26613fc5f548876cb998a561e99
+      internalID: -1750316844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_102
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 272
+        width: 17
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed33b1664ccfc84d9ed6894a75f2b38
+      internalID: 12795498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_103
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 454
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4a1cd03aed89149b4e7f9655dfa307
+      internalID: 110047826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_104
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 420
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a62aa22d577d547b2d2cd44dbb9e89
+      internalID: 212797014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_105
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 426
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c58a5019462d6b4ab5c451acb6880ee
+      internalID: 1850487999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_106
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 429
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa738e86a704944b4fa8221e9b7312
+      internalID: 1253677109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_107
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 420
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755d104749227a44995f805373ff451a
+      internalID: -983360683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_108
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 426
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a020f4774b1f144b77a7376fdad516
+      internalID: -126750696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_109
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 429
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42b42c6d6275c746bc82bfd7fd2ae1f
+      internalID: -510569818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_110
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 405
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de6adbb743668b4b8fad11ef273c308
+      internalID: 649728080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_111
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 405
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585e7c2d0a506da46bd6280d9bfdd97a
+      internalID: 1516411814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_112
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4e49a9203003b4abf55f6bd9dd3435
+      internalID: -323942186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_113
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 375
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fc05496b6360441944c2cc0c2e8961
+      internalID: -244677413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_114
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 384
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb3656079aefa5479b6510cbd416a7e
+      internalID: 309237993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_115
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 375
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d6447aa0512e4489bbab4149fc63a1
+      internalID: -166079413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_116
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 362
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a59c9dcb64fda4fad8bc0a8ecc7b34
+      internalID: -925444523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_117
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 339
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6653046f1dcc3649ab85e37df9707dc
+      internalID: 1967802701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_118
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 362
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebf04bec05be6b4c955d882404138df
+      internalID: 516068024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_119
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 339
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94939f1fc1d1b0540bec952ee7009a22
+      internalID: -593430241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_120
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 332
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0c2bd5152bbea4abaeff75af4526b1
+      internalID: 1795756340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_121
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 313
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52196c53b73ec154eb6d094bd0ee761b
+      internalID: 399417073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_122
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 332
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abc445988428374185ff357667802a3
+      internalID: -1397477911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_123
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 313
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39278c7da7bc1d408aae249654568d3
+      internalID: 921278850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_124
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 286
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4f378c16525df4caf4f3f6939bd2ec
+      internalID: -177525078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_125
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 296
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c4969539208574598807fcc7e81011
+      internalID: -1467560691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_126
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 286
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9aede2b13bd974fa47bcccb59759f5
+      internalID: 1274881455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_127
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 296
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9876d0dbac8a6664281ff20d4f910fab
+      internalID: -1900862071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_128
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 112
+        width: 88
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d018bb36e19252042978d2a6618ba475
+      internalID: -641664365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_129
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 121
+        width: 88
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac123921530f3e4bb1439f708170e28
+      internalID: 1614497999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_130
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 112
+        width: 88
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a81f1f01aeea854d8f2e3918043a9f7
+      internalID: 889051677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_131
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 112
+        width: 54
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86db5db614c27a40a2f7d24bb62b7b8
+      internalID: -931226111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_132
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 112
+        width: 22
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1303002d93f22c47b19c39a58e3d98d
+      internalID: -1022081780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_133
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 214
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4d673d913724c4983b395f36d72ea0
+      internalID: 773163914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_134
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 207
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9446b4e22e7164c9f769f34335acd6
+      internalID: 844983894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_135
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 112
+        width: 88
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edc0ecb48ec07f46801084154c0fb1e
+      internalID: 1438033573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_136
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 121
+        width: 88
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33143abcae75b746860d704ed21d666
+      internalID: -382418274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_137
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 112
+        width: 88
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6532d6c9cfde9664e960fbd4bae674b4
+      internalID: 1213610751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_138
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 112
+        width: 54
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264930f4dbb09074a84f08f18cb7e788
+      internalID: -2132977387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_139
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 112
+        width: 22
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc945c68229df34c85846336de12259
+      internalID: -192582770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_140
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 214
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec9381cd3e37348bf13739b37a6a88
+      internalID: -1086470767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_141
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 207
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd253313383a749459293abda1cd891a
+      internalID: -1634709916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_142
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 193
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890813fc1b841614f9b068d2e40478db
+      internalID: -34097364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_143
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 193
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b3381088f5f5146b6f7562973a4cad
+      internalID: -860935229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_144
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 171
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0fbdf62c0c97340be638326aaa1264
+      internalID: 253497933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_145
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 173
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b406740f72ffd2419bf6161d93ff345
+      internalID: -922423144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_146
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 171
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce34398c5290d4f499bf285a645d1be7
+      internalID: 1226383402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_147
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 173
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dcf7eddf5fbfa47b3077b35cda7365
+      internalID: -1803903735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_148
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 153
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be779fe57529f5e44b9dbb9567dd78ff
+      internalID: 1622548490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_149
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 153
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b093a13ce3356954f824c10ddbcabf31
+      internalID: 495807095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_150
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 70
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2d355ae91e4c14ebd62421831e68ea
+      internalID: -1399982486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_151
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbd820d7d05e84489b53f8b9910727b
+      internalID: 1408386233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_152
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 70
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0398917ccd2da044b3d470e3d49a271
+      internalID: -1571002396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_153
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 41
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bb26116c5b6d34bb1687e5ba6e4dba
+      internalID: 863138901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_154
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 12
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aebc56c2de1934c8d33265a3a58d3c
+      internalID: -983839288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_155
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 92
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708a9c10bc2bbbc4985171cd9c6d6a49
+      internalID: 1998456268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_156
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 0
+        width: 70
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04924df3c77ade418de6a60f46139fb
+      internalID: -2077140763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_157
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6d750ffa4f89429ea02160550cac5
+      internalID: 948098959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_158
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 0
+        width: 70
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138f05f8ca4cca64baa7eebead47cc2e
+      internalID: -1594123932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_159
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 41
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2467f2f233c37ff4ea2a82992cfa394f
+      internalID: -1039943299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_160
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 0
+        width: 12
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9b8a1a86349384a98a2938ac701fbb
+      internalID: 354959863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_161
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 92
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ffa51ed84ed4e4cbb0de6a83cc8e10
+      internalID: 1905593314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_162
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 63
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68417f797affd934a9cb721ba8bf9713
+      internalID: -807825655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_163
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7385e8bc5364033498b17cd6c36281c8
+      internalID: -331382369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_164
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 63
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddef54b1ede8324181d2936b675aadd
+      internalID: 1331346774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_165
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e879052a4ad95db409d8740270784f66
+      internalID: 1988587445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_166
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15997aa81a03fa0498149fba66e29849
+      internalID: -757247449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_167
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 32
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b27ca64ad3fe541a74f539b00b060b
+      internalID: 1202415244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_168
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea91b0534c8dc44387f233951a6431e
+      internalID: -1000335784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_169
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 32
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af7d9bb08dc1de438aec62fa9504fd8
+      internalID: 1269444440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_170
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 31
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f190686dbfcb1b4e94bab7c77ddbb3c
+      internalID: -173866127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_171
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 31
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ca81b6bf3983849a799bdb12550aac
+      internalID: -633668152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_172
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16138bdbe265c0148bcafe4865daf9c3
+      internalID: -1252546043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_173
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d13d5015632414bb4c82eeb8b16c41
+      internalID: -408851526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_174
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17becfa34676eb344ae1f479d7a77d5a
+      internalID: 219385040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow-Tree_175
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fb57ed61fa7c640b88105b19664816
+      internalID: -329875741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Yellow-Tree_0: 782016315
+      Yellow-Tree_1: 353463843
+      Yellow-Tree_10: 1113193957
+      Yellow-Tree_100: 2141628790
+      Yellow-Tree_101: -1750316844
+      Yellow-Tree_102: 12795498
+      Yellow-Tree_103: 110047826
+      Yellow-Tree_104: 212797014
+      Yellow-Tree_105: 1850487999
+      Yellow-Tree_106: 1253677109
+      Yellow-Tree_107: -983360683
+      Yellow-Tree_108: -126750696
+      Yellow-Tree_109: -510569818
+      Yellow-Tree_11: 1338102052
+      Yellow-Tree_110: 649728080
+      Yellow-Tree_111: 1516411814
+      Yellow-Tree_112: -323942186
+      Yellow-Tree_113: -244677413
+      Yellow-Tree_114: 309237993
+      Yellow-Tree_115: -166079413
+      Yellow-Tree_116: -925444523
+      Yellow-Tree_117: 1967802701
+      Yellow-Tree_118: 516068024
+      Yellow-Tree_119: -593430241
+      Yellow-Tree_12: -1353348286
+      Yellow-Tree_120: 1795756340
+      Yellow-Tree_121: 399417073
+      Yellow-Tree_122: -1397477911
+      Yellow-Tree_123: 921278850
+      Yellow-Tree_124: -177525078
+      Yellow-Tree_125: -1467560691
+      Yellow-Tree_126: 1274881455
+      Yellow-Tree_127: -1900862071
+      Yellow-Tree_128: -641664365
+      Yellow-Tree_129: 1614497999
+      Yellow-Tree_13: -2087147477
+      Yellow-Tree_130: 889051677
+      Yellow-Tree_131: -931226111
+      Yellow-Tree_132: -1022081780
+      Yellow-Tree_133: 773163914
+      Yellow-Tree_134: 844983894
+      Yellow-Tree_135: 1438033573
+      Yellow-Tree_136: -382418274
+      Yellow-Tree_137: 1213610751
+      Yellow-Tree_138: -2132977387
+      Yellow-Tree_139: -192582770
+      Yellow-Tree_14: -1624149362
+      Yellow-Tree_140: -1086470767
+      Yellow-Tree_141: -1634709916
+      Yellow-Tree_142: -34097364
+      Yellow-Tree_143: -860935229
+      Yellow-Tree_144: 253497933
+      Yellow-Tree_145: -922423144
+      Yellow-Tree_146: 1226383402
+      Yellow-Tree_147: -1803903735
+      Yellow-Tree_148: 1622548490
+      Yellow-Tree_149: 495807095
+      Yellow-Tree_15: -957599954
+      Yellow-Tree_150: -1399982486
+      Yellow-Tree_151: 1408386233
+      Yellow-Tree_152: -1571002396
+      Yellow-Tree_153: 863138901
+      Yellow-Tree_154: -983839288
+      Yellow-Tree_155: 1998456268
+      Yellow-Tree_156: -2077140763
+      Yellow-Tree_157: 948098959
+      Yellow-Tree_158: -1594123932
+      Yellow-Tree_159: -1039943299
+      Yellow-Tree_16: -1335525955
+      Yellow-Tree_160: 354959863
+      Yellow-Tree_161: 1905593314
+      Yellow-Tree_162: -807825655
+      Yellow-Tree_163: -331382369
+      Yellow-Tree_164: 1331346774
+      Yellow-Tree_165: 1988587445
+      Yellow-Tree_166: -757247449
+      Yellow-Tree_167: 1202415244
+      Yellow-Tree_168: -1000335784
+      Yellow-Tree_169: 1269444440
+      Yellow-Tree_17: -1779761491
+      Yellow-Tree_170: -173866127
+      Yellow-Tree_171: -633668152
+      Yellow-Tree_172: -1252546043
+      Yellow-Tree_173: -408851526
+      Yellow-Tree_174: 219385040
+      Yellow-Tree_175: -329875741
+      Yellow-Tree_18: -1931751409
+      Yellow-Tree_19: 255192023
+      Yellow-Tree_2: -12526086
+      Yellow-Tree_20: -1184748576
+      Yellow-Tree_21: -1962796912
+      Yellow-Tree_22: 1198642867
+      Yellow-Tree_23: 859770851
+      Yellow-Tree_24: -1446333110
+      Yellow-Tree_25: 993489667
+      Yellow-Tree_26: 2105368504
+      Yellow-Tree_27: 62129929
+      Yellow-Tree_28: -894867919
+      Yellow-Tree_29: 1716040734
+      Yellow-Tree_3: 1904225919
+      Yellow-Tree_30: 1342238976
+      Yellow-Tree_31: -1784711396
+      Yellow-Tree_32: 1651332288
+      Yellow-Tree_33: 484571182
+      Yellow-Tree_34: 166442702
+      Yellow-Tree_35: -1714394945
+      Yellow-Tree_36: -1317815261
+      Yellow-Tree_37: -472824090
+      Yellow-Tree_38: 1419087719
+      Yellow-Tree_39: -1899508
+      Yellow-Tree_4: 432525949
+      Yellow-Tree_40: 256898316
+      Yellow-Tree_41: -1083609642
+      Yellow-Tree_42: 1771480133
+      Yellow-Tree_43: -1923527695
+      Yellow-Tree_44: -280096723
+      Yellow-Tree_45: 933446494
+      Yellow-Tree_46: 914528000
+      Yellow-Tree_47: 1713878163
+      Yellow-Tree_48: -342455258
+      Yellow-Tree_49: 1526879300
+      Yellow-Tree_5: -1901634754
+      Yellow-Tree_50: 1809021269
+      Yellow-Tree_51: -1104792182
+      Yellow-Tree_52: -240049105
+      Yellow-Tree_53: 767294031
+      Yellow-Tree_54: 1383313959
+      Yellow-Tree_55: 50163959
+      Yellow-Tree_56: 3670707
+      Yellow-Tree_57: -441753235
+      Yellow-Tree_58: -2012105988
+      Yellow-Tree_59: -927001311
+      Yellow-Tree_6: -2018995948
+      Yellow-Tree_60: 670443474
+      Yellow-Tree_61: 701564977
+      Yellow-Tree_62: -905884145
+      Yellow-Tree_63: 768700197
+      Yellow-Tree_64: 1261105419
+      Yellow-Tree_65: 1678965609
+      Yellow-Tree_66: 1581760213
+      Yellow-Tree_67: -528859236
+      Yellow-Tree_68: 763054607
+      Yellow-Tree_69: -1979183406
+      Yellow-Tree_7: 273855657
+      Yellow-Tree_70: -679812439
+      Yellow-Tree_71: -1738012721
+      Yellow-Tree_72: 1593475660
+      Yellow-Tree_73: -922032216
+      Yellow-Tree_74: -1998874007
+      Yellow-Tree_75: -1413170214
+      Yellow-Tree_76: 855653329
+      Yellow-Tree_77: -1135401771
+      Yellow-Tree_78: 1858170734
+      Yellow-Tree_79: -1888685013
+      Yellow-Tree_8: -564049899
+      Yellow-Tree_80: 1046829214
+      Yellow-Tree_81: -155038620
+      Yellow-Tree_82: -509002232
+      Yellow-Tree_83: 208991618
+      Yellow-Tree_84: -1207222672
+      Yellow-Tree_85: -1566180880
+      Yellow-Tree_86: -1753846415
+      Yellow-Tree_87: 2004724795
+      Yellow-Tree_88: -1639246769
+      Yellow-Tree_89: 1212623055
+      Yellow-Tree_9: -959442253
+      Yellow-Tree_90: 2067306809
+      Yellow-Tree_91: 359968091
+      Yellow-Tree_92: -1273304137
+      Yellow-Tree_93: -838079677
+      Yellow-Tree_94: -717591966
+      Yellow-Tree_95: 1718029333
+      Yellow-Tree_96: -1761669670
+      Yellow-Tree_97: 260944695
+      Yellow-Tree_98: -70393585
+      Yellow-Tree_99: 500741943
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
