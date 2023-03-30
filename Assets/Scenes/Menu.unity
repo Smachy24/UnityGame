@@ -1646,6 +1646,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 754693130}
+    - target: {fileID: 8883037453083833015, guid: 414710e106d2644baaf62ef8d574a5e7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseSettings
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883037453083833015, guid: 414710e106d2644baaf62ef8d574a5e7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8883037453707557177, guid: 414710e106d2644baaf62ef8d574a5e7, type: 3}
       propertyPath: m_Name
       value: SettingsWindow
