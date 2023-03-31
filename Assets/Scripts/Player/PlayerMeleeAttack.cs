@@ -11,8 +11,6 @@ public class PlayerMeleeAttack : MonoBehaviour
 
     public AudioClip sound;
 
-    public AudioClip sound;
-
     // Start is called before the first frame update
     void Start()
     {
