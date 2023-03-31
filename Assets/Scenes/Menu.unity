@@ -249,7 +249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ASSET STORE ADVENTURE
+  m_text: ASSET STORE WONDERER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e6e5ba1568c0d4a0abcf12b4359b49b5, type: 2}
   m_sharedMaterial: {fileID: 4236548887694915816, guid: e6e5ba1568c0d4a0abcf12b4359b49b5, type: 2}
