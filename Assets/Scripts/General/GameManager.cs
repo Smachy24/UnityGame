@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
 
     public void Replay()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void BackToMenu()
