@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PlayerLifeSystem : MonoBehaviour
 {
 
-    [SerializeField]
-    private Image PvBar;
+  /*  [SerializeField]
+    private Image PvBar;*/
 
     public float _currentPV;
     private float _initialPv = 50;
@@ -21,7 +21,7 @@ public class PlayerLifeSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PvBar.fillAmount = Mathf.Clamp(_currentPV / _initialPv, 0, 1);
+        //PvBar.fillAmount = Mathf.Clamp(_currentPV / _initialPv, 0, 1);
         if (_currentPV <= 0)
         {
             FindObjectOfType<GameManager>().GameOver();
