@@ -8,6 +8,9 @@ public class SwordZone : MonoBehaviour
     private float _lifeTime = 0.3f;
     private float damage = 8;
 
+    [SerializeField]
+    private GameObject player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +37,7 @@ public class SwordZone : MonoBehaviour
             Debug.Log(collision.name);
             collision.GetComponent<EnemyBase>().TakeDamage(damage);
 
+            Debug.Log(player.name);
         }
     }
 }

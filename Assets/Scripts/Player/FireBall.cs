@@ -26,9 +26,11 @@ public class FireBall : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        Debug.Log("trigger");
         if (collision.gameObject.CompareTag("Ennemy"))
         {
+            Debug.Log("dans la condition");
+
             //GameObject mage = GameObject.FindWithTag("Player");
             //collision.GetComponent<Stats>().InflictDamage(mage.GetComponent<Stats>().damageAttack);
             //Debug.Log(collision.GetComponent<Stats>().currentPv);
@@ -37,6 +39,20 @@ public class FireBall : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    Debug.Log("collision");
+
+    //    if (collision.gameObject.CompareTag("Ennemy"))
+    //    {
+    //        collision.gameObject.GetComponent<EnemyBase>().TakeDamage(damage);
+    //        Destroy(gameObject);
+    //    }
+    //}
+
+
+
 
     void RemoveFireball()
     {
