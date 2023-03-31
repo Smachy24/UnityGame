@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
-  _maxPv: 30
+  _maxPv: 15
 --- !u!114 &2277218475536534191
 MonoBehaviour:
   m_ObjectHideFlags: 0

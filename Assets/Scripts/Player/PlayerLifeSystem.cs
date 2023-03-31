@@ -11,8 +11,16 @@ public class PlayerLifeSystem : MonoBehaviour
 
     public float _currentPV;
     private float _initialPv = 50;
+    private Transform playerSpawn;
+    private Transform playerPos;
+
 
     // Start is called before the first frame update
+    private void Awake()
+    {
+        playerSpawn = GameObject.FindGameObjectWithTag("playerSpawn").transform;
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+    }
     void Start()
     {
         _currentPV = _initialPv;
@@ -24,7 +32,9 @@ public class PlayerLifeSystem : MonoBehaviour
         //PvBar.fillAmount = Mathf.Clamp(_currentPV / _initialPv, 0, 1);
         if (_currentPV <= 0)
         {
-            FindObjectOfType<GameManager>().GameOver();
+            //FindObjectOfType<GameManager>().GameOver();
+            playerPos.position = playerSpawn.position;
+            _currentPV = _initialPv;
         }
     }
 

@@ -8,9 +8,9 @@ public class EnemyFireBall : MonoBehaviour
     //[SerializeField]
     private GameObject _player; //notre cible
     private Rigidbody2D _rb;
-    private float lifeTime = 3;
+    private float lifeTime = 1.5f;
 
-    private float speed = 10;
+    private float speed = 8;
 
     // Start is called before the first frame update
     void Start()
