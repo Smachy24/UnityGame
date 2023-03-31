@@ -6,7 +6,6 @@ public class isInTrap : MonoBehaviour
 {
     private Transform playSpawn;
 
-
     private void Awake()
     {
         playSpawn = GameObject.FindGameObjectWithTag("playerSpawn").transform;
@@ -19,6 +18,14 @@ public class isInTrap : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.transform.position = playSpawn.position;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collision.transform.position = playSpawn.position;
         }
     }
 }

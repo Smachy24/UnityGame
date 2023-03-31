@@ -18,10 +18,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 15
+    value: 8.4
   threshold:
     overrideState: 1
-    value: 0.99
+    value: 0
   softKnee:
     overrideState: 1
     value: 0.774
@@ -30,13 +30,13 @@ MonoBehaviour:
     value: 65472
   diffusion:
     overrideState: 1
-    value: 5
+    value: 3.97
   anamorphicRatio:
     overrideState: 1
-    value: -1
+    value: 0.59
   color:
     overrideState: 1
-    value: {r: 1, g: 1, b: 1, a: 1}
+    value: {r: 0.1140809, g: 0, b: 0.3018868, a: 1}
   fastMode:
     overrideState: 0
     value: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.07
+    value: 0.303
   fastMode:
     overrideState: 1
     value: 0
@@ -111,13 +111,13 @@ MonoBehaviour:
     value: 0
   color:
     overrideState: 1
-    value: {r: 0.18674617, g: 0.254717, b: 0.111739054, a: 1}
+    value: {r: 0.32305118, g: 0, b: 0.4528302, a: 1}
   center:
     overrideState: 0
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.311
+    value: 0.278
   smoothness:
     overrideState: 1
     value: 1
@@ -237,11 +237,11 @@ MonoBehaviour:
     overrideState: 0
     value: 100
   lift:
-    overrideState: 0
-    value: {x: 1, y: 0.95762223, z: 0.9857375, w: 0}
+    overrideState: 1
+    value: {x: 1, y: 0.94326174, z: 0.97445387, w: 0}
   gamma:
     overrideState: 1
-    value: {x: 0.78866756, y: 0.8524975, z: 1, w: 0.012936708}
+    value: {x: 0.78456336, y: 0.88016015, z: 1, w: 0.012936708}
   gain:
     overrideState: 1
     value: {x: 0.79929376, y: 0.69224733, z: 1, w: 0.6985771}

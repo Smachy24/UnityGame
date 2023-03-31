@@ -6,6 +6,8 @@ TagManager:
   tags:
   - playerSpawn
   - Checkpoint
+  - Danger
+  - dangerSpawn
   layers:
   - Default
   - TransparentFX
