@@ -22,6 +22,7 @@ public class FireBall : MonoBehaviour
         //transform.position += Vector3.right * Time.deltaTime;
         //transform.Translate(transform.up * speed * Time.deltaTime);
         transform.position += transform.up * speed * Time.deltaTime;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
