@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lifeTime: 0.3
+  player: {fileID: 5593674502482840779, guid: 0efc0289bf4ec40158216974ae703293, type: 3}
 --- !u!61 &-8143233787314757153
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _swordZonePrefab: {fileID: 4200771267190656275, guid: 3590a847472074c228fb215bae2258b9, type: 3}
+  sound: {fileID: 8300000, guid: 677c59844326e442eb0e9595783366e2, type: 3}
 --- !u!114 &6154218734870815762
 MonoBehaviour:
   m_ObjectHideFlags: 0

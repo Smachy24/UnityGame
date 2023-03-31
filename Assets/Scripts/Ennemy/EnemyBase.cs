@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class EnemyBase : MonoBehaviour
 {
-    //[SerializeField]
+    [SerializeField]
+    private GameObject _player;
+    [SerializeField]
     private float _maxPv;
 
     //[SerializeField]
-    private float _currentPv = 20;
+    private float _currentPv;
 
     // Start is called before the first frame update
     void Start()
     {
+        _currentPv = _maxPv;
         Debug.Log(_currentPv);
+        _player = GameObject.FindGameObjectWithTag("Player");
+
     }
 
     // Update is called once per frame
@@ -32,9 +37,14 @@ public class EnemyBase : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("touché");
+        //Debug.Log("touché");
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<PlayerLifeSystem>().TakeDamage(5);
+            Debug.Log(collision.gameObject.GetComponent<PlayerLifeSystem>()._currentPV);
+        }
     }
 
     public void KillEnemy()

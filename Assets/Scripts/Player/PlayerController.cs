@@ -56,4 +56,12 @@ public class PlayerController : MonoBehaviour
         _rigBod.velocity = new Vector2(0, _rigBod.velocity.y);
         enabled = false;
     }
+
+
+    public void UpImpulse()
+    {
+        PlayerStats stats = m_Switcher.CurrentStats;
+        _rigBod.AddForce(Vector2.up * stats.m_JumpForce, ForceMode2D.Impulse);
+        _rigBod.velocity = new Vector2(stats.m_MoveSpeed * _movement, _rigBod.velocity.y);
+    }
 }
