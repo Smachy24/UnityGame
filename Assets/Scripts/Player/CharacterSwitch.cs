@@ -9,6 +9,8 @@ public class CharacterSwitch : MonoBehaviour
     [SerializeField]
     private GameObject Guerrier;
 
+    public AudioClip sound;
+
     public PlayerStats CurrentStats { get; set; }
 
     //private GameObject 
@@ -24,6 +26,7 @@ public class CharacterSwitch : MonoBehaviour
 
     public void SwitchPlayer(GameObject current, GameObject target)
     {
+        AudioManager.instance.PlayClipAt(sound, transform.position);
         current.SetActive(false);
         target.SetActive(true);
 

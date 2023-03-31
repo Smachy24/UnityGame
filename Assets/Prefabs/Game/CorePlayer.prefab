@@ -53,6 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Mage: {fileID: 7064726095702121304}
   Guerrier: {fileID: 2447886610787437991}
+  sound: {fileID: 8300000, guid: b4d889f2e587a904793a236ef5d0b13e, type: 3}
 --- !u!114 &1074384438816237161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ce1192687184fd7a26b9b4b3f8bd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentPV: 0
 --- !u!50 &7738426236422772798
 Rigidbody2D:
   serializedVersion: 4
