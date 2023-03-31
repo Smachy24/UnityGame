@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class NPCPlayerController : MonoBehaviour
 {
     private Rigidbody2D _rigBod;
 
@@ -11,10 +11,11 @@ public class PlayerController : MonoBehaviour
 
     private float _movement;
     private bool _isJump;
+    private float jumpForce = 15;
+    private float moveSpeed = 15;
+    private float playerHeight = 1;
 
-
-    [SerializeField]
-    private CharacterSwitch m_Switcher;
+    
 
     private void Awake()
     {
@@ -24,9 +25,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerStats stats = m_Switcher.CurrentStats;
+ 
 
-        if (Physics2D.Raycast(transform.position, Vector2.down, stats.playerHeight, m_GroundLayer))
+        if (Physics2D.Raycast(transform.position, Vector2.down, playerHeight, m_GroundLayer))
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -39,16 +40,16 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        PlayerStats stats = m_Switcher.CurrentStats;
+      
 
         if (_isJump)
         {
             _isJump = false;
 
-            _rigBod.AddForce(Vector2.up * stats.m_JumpForce, ForceMode2D.Impulse);
+            _rigBod.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
-        _rigBod.velocity = new Vector2(stats.m_MoveSpeed * _movement, _rigBod.velocity.y);
+        _rigBod.velocity = new Vector2(moveSpeed * _movement, _rigBod.velocity.y);
     }
 
     public void Stop()
@@ -57,11 +58,4 @@ public class PlayerController : MonoBehaviour
         enabled = false;
     }
 
-
-    public void UpImpulse()
-    {
-        PlayerStats stats = m_Switcher.CurrentStats;
-        _rigBod.AddForce(Vector2.up * stats.m_JumpForce, ForceMode2D.Impulse);
-        _rigBod.velocity = new Vector2(stats.m_MoveSpeed * _movement, _rigBod.velocity.y);
-    }
 }
